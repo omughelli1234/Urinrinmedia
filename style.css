@@ -433,7 +433,7 @@ nav ul li ul li:hover{
     justify-content: center;
     align-items: center;
     text-align: justify;
-    animation: 3s whoweare 4;
+    animation: 3s whoweare 2;
 }
 @keyframes whoweare{
     0%{

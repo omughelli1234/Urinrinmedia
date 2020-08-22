@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* style for the form */
+#form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    justify-content: space-between;
+}
+#blue_side{
+    background-color: rgba(21, 21, 252,1);
+    width: 50%;
+    height: 100vh;
+}
+#blue_side h1{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: white;
+    font-size: 2.5rem;
+}
+#blue_side h3{
+    padding: 20px;
+    margin-bottom: 2px;
+    color: white;
+}
+#blue_side button{
+    padding: 4px;
+    color: white;
+    background-color: rgb(152, 152, 201);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+#blue_side button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#blue_side P{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+#white_side{
+    background-color: white;
+    width: 40%;
+}
+#white_side h3{
+    margin: 10px;
+    border-top: 1px solid black;
+}
+.name{
+    padding: 5px;
+    width: 350px;
+}
+#submit{
+    padding: 8px;
+    background-color: blue;
+    width: 100px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#suggestion{
+    height: 5vh;
+}
+/* style for the form ends here */
+/* style for contact us */
+#contact_us p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+/* style for contact us ends here */
+/* style for madia quary */
+@media screen and (max-width:800px){
+    #form{
+        width: 40%;
+        height: 100vh;
+    }
+}
+/* style for madia quary ends here */
